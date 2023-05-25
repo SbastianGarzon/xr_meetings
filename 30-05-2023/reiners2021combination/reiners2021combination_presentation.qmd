@@ -1,0 +1,167 @@
+---
+title: XR meeting - WUR
+subtitle: Paper discussion
+author: Sebastián Garzón
+date: "2023-05-30"
+date-format: short
+format:
+    revealjs:
+      logo: https://d1ra4hr810e003.cloudfront.net/visual/accountlogo/386E52AF-B22A-4F20-9E07456F950C78DA/small-626B8937-AF13-4FF1-B61B9BA437B7351D.png
+      fontsize: 18pt
+      incremental: true   
+
+editor: visual
+bibliography: references.bib
+---
+
+## Today's paper
+
+### The Combination of Artiﬁcial Intelligence and Extended Reality: A Systematic Review
+
+**Authors:** [Dirk Reiners](https://loop.frontiersin.org/people/173323/overview), [Mohammad Reza Davahli](https://loop.frontiersin.org/people/1365223/overview), [Waldemar Karwowski](https://loop.frontiersin.org/people/211136/overview) and [Carolina Cruz-Neira](https://www.cs.ucf.edu/person/carolina-cruz-neira/)\
+**Affiliation:** University of Central Florida  **Journal**: Frontiers in Virtual Reality   **Year**: 2021\
+**DOI:** [10.3389/frvir.2021.721933](https://doi.org/10.3389/frvir.2021.721933)
+
+```{=html}
+<iframe width="100%" height="400" src="reiners2021combination.pdf" title="Quarto Documentation"></iframe>
+```
+## Motivation
+
+> "Artificial Intelligence (AI) and extended reality (XR) differ in their origin and primary objectives." @reiners2021combination
+
+. . .
+
+::: columns
+::: {.column width="50%"}
+### Artificial Intelligence
+
+[![Boris Dayma, Xintao Wang, Liangbin Xie et al. (APACHE2).](https://upload.wikimedia.org/wikipedia/commons/1/1c/Artificial_intelligence_prompt_completion_by_dalle_mini.jpg){width="200"}](https://en.wikipedia.org/wiki/Artificial_intelligence#/media/File:Artificial_intelligence_prompt_completion_by_dalle_mini.jpg)
+
+-   "**Replicate** human's capabilities"
+-   "Combine Computer capabilities"
+-   "Vast amount of data"
+:::
+
+::: {.column width="50%"}
+### Extended Reality (XR)
+
+[![NASA-Public Domain](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/THE_VIEW_(Virtual_Reality).jpg/1024px-THE_VIEW_(Virtual_Reality).jpg){width="200"}](https://images.nasa.gov/details/ARC-1992-AC89-0437-6)
+
+-   "Use computer generated environments"
+-   "**Enhance** and **extent** human's capabilities"
+-   "Understand and discover in more effective ways"
+:::
+:::
+
+. . .
+
+<center>**XR - AI Combination ?**</center>
+
+## XR - AI Combination
+
+-   **Objective:** Understand objectives, categorization, applications, limitations and perspectives of the AI-XR combination
+-   **Method :** Systematic literature review (SLR)
+-   **Research question:** What are the main objectives and applications of the AI-XR combination?
+
+. . .
+
+::: columns
+::: {.column width="50%"}
+| Row          | Set                                                                               |
+|--------------------------|---------------------------------------------------------|
+| Test set 1   | (Virtual reality OR Augmented reality OR Mixed Reality OR Extended reality)       |
+| Test set 2   | (Artificial intelligence OR machine learning OR Deep learning OR neural networks) |
+| **Search 1** | **#1 and #2**                                                                     |
+| Test set 3   | Interactive simulation OR Virtual environment                                     |
+| **Search 2** | **#3 and #2**                                                                     |
+:::
+
+::: {.column width="50%"}
+
+[![© 2021 Reiners, Davahli, Karwowski and Cruz-Neira.](https://www.frontiersin.org/files/Articles/721933/frvir-02-721933-HTML/image_m/frvir-02-721933-g001.jpg){fig-align="center" width="400"}](https://www.frontiersin.org/articles/10.3389/frvir.2021.721933/full)
+:::
+:::
+
+## SLR results
+
+-   **36 published records** containing **XR-AI combinations**
+-   Predominant topics: Medical and surgical training & Autonomous cars, and robotics
+-   'High-ranking research institutes'
+
+. . .
+
+::: columns
+::: {.column width="50%"}
+[![© 2021 Reiners, Davahli, Karwowski and Cruz-Neira.](https://www.frontiersin.org/files/Articles/721933/frvir-02-721933-HTML/image_m/frvir-02-721933-g002.jpg){fig-align="center" width="500"}](https://www.frontiersin.org/articles/10.3389/frvir.2021.721933/full)
+:::
+
+::: {.column width="50%"}
+[![© 2021 Reiners, Davahli, Karwowski and Cruz-Neira.](https://www.frontiersin.org/files/Articles/721933/frvir-02-721933-HTML/image_m/frvir-02-721933-g003.jpg){fig-align="center" width="500"}](https://www.frontiersin.org/articles/10.3389/frvir.2021.721933/full)
+:::
+:::
+
+## Categories (AI-XR combination)
+[![© 2021 Reiners, Davahli, Karwowski and Cruz-Neira.](https://www.frontiersin.org/files/Articles/721933/frvir-02-721933-HTML/image_m/frvir-02-721933-g005.jpg)](https://www.frontiersin.org/articles/10.3389/frvir.2021.721933/full)
+
+## Interpretation of XR generated data (33%) {.smaller}
+
+- What can we say **about users** based on **XR generated data** ?
+- "**Combining AI and XR** provides an opportunity to **better interpret XR dynamics** by developing and objective approach for assessing user skill and performance" @reiners2021combination
+
+. . .
+
+:::columns
+:::{.column width="50%"}
+### Skill evaluation
+- Providing metrics and performance feedback in a surgical simulator - @sewell2008surgical
+- **XR:** Virtual surgery (drilling technique - Bone removal)
+- **AI:** Automatically differentiate user's expertise
+
+- [![Copyright © 2007 The Author(s)](https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/icsu20/2008/icsu20.v013.i02/10929080801957712/20150616/images/medium/icsu_a_295937_f0002_b.gif){width="300"}](https://www.tandfonline.com/doi/full/10.3109/10929080801957712)
+
+:::
+
+:::{.column width="50%"}
+### User experience
+- Affective computing in virtual reality: emotion recognition from brain and heartbeat dynamics using wearable sensors - @marin2018affective  
+- **XR:** Experiment environment (360 images-Rooms)
+- **AI:** Emotion recognition using electroencephalography (EEG) and electrocardiography (ECG) data
+- [![Copyright © 2018 The Author(s)](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-018-32063-4/MediaObjects/41598_2018_32063_Fig4_HTML.png)](https://www.nature.com/articles/s41598-018-32063-4)
+:::
+:::
+
+
+## Conferring intelligence on XR (28%)
+
+- Virtual reality and artificial intelligence for 3-dimensional planning of lung segmentectomies - @sadeghi2021lung 
+- **AI:** Segmentation of CT-scans (Computarized tomography)
+- **XR:** 3D visualisation of lung
+
+. . .
+
+[![Copyright © 2021 The Author(s)](https://www.ncbi.nlm.nih.gov/pmc/articles/instance/8312141/bin/fx1.jpg)](https://www.sciencedirect.com/science/article/pii/S2666250721002534)
+
+## Training AI (39%)
+
+- AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles - @shah2018autonomous 
+- **XR (?):** Mimicking real world to acquire data
+- **AI:** Data processing
+
+. . .
+
+[![Copyright © 2018 The Author(s)](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-319-67361-5_40/MediaObjects/447071_1_En_40_Fig2_HTML.gif)](https://link.springer.com/chapter/10.1007/978-3-319-67361-5_40)
+
+## Guidelines
+
+[![© 2021 Reiners, Davahli, Karwowski and Cruz-Neira.](https://www.frontiersin.org/files/Articles/721933/frvir-02-721933-HTML/image_m/frvir-02-721933-g006.jpg){fig-align="center" width="400"}](https://www.frontiersin.org/articles/10.3389/frvir.2021.721933/full)
+
+## Proposed questions
+
+- "Training AI" papers consider "AI Agents" (e.g., Autonomous cars) as "users" experiencing virtual environments. Should we consider these examples as an "AI-XR combination" ?
+
+- Do you know any project that could be considered an "AI-XR combination"? (Point cloud labeling)
+ 
+- > Can **machine algorithms learn ** useful behavior from **observing human user interactions** with the system? Can they learn semantic relationships (e.g., spatial grouping)? Can this be enhanced by enabling more immersive interactions (e.g., positional and/or eye tracking)? It would seem that the **more user interactions** that can be captured, the **more that could be learned from** them. @skarbez2019analytics
+
+
+## References
